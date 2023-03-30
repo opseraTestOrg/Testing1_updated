@@ -1,0 +1,129 @@
+{
+  "project": {
+    "name": "",
+    "project_id": ""
+  },
+  "workflow": {
+    "source": {
+      "secondary_branches": [],
+      "name": "",
+      "service": "gitlab",
+      "accountId": "60e89b766de6c9af3508eef8",
+      "workspace": "",
+      "workspaceName": "",
+      "repository": "Testing1",
+      "repoId": "41336976",
+      "projectId": "41336976",
+      "gitUrl": "https://gitlab.com/hemalathaQA/testing1.git",
+      "sshUrl": "git@gitlab.com:hemalathaQA/testing1.git",
+      "branch": "main",
+      "key": "",
+      "trigger_active": false,
+      "isPushEvent": true,
+      "isPrEvent": false,
+      "prCreatedEvent": true,
+      "prApprovedEvent": false,
+      "gitExportEnabled": true,
+      "gitExportPath": "testing",
+      "dynamicSettings": false,
+      "enableBranchSwitch": false
+    },
+    "schedule": {
+      "start_date": null,
+      "end_date": null,
+      "frequency": ""
+    },
+    "last_step": {
+      "failed": {
+        "step_id": "5ec7c8f729300fd745a43d55",
+        "activity_id": "62d543bc333b97002c22ce67",
+        "status": "failed",
+        "updatedAt": "2022-07-18T11:27:56.105Z"
+      },
+      "status": "stopped",
+      "step_id": "5ec7c8f729300fd745a43d55",
+      "check_count": 2
+    },
+    "last_run": {
+      "completed": "2022-07-18T11:27:56.169Z",
+      "run_count": 3,
+      "status": "failed"
+    },
+    "plan": [
+      {
+        "tool": {
+          "tool_identifier": "gitscraper",
+          "configuration": {
+            "gitFilePath": "",
+            "repository": "opseraTestRepo2",
+            "gitBranch": "test1",
+            "gitToolId": "609b9316f20bc058b40d5b95",
+            "repoId": "srinivasan0505/opseraTestRepo2",
+            "sshUrl": "git@github.com:srinivasan0505/opseraTestRepo2.git",
+            "gitUrl": "https://github.com/srinivasan0505/opseraTestRepo2",
+            "bitbucketWorkspace": "",
+            "bitbucketWorkspaceName": "",
+            "type": "git_custodian",
+            "commits": "",
+            "threshold": 0,
+            "excludeSecrets": [],
+            "excludeFiles": [],
+            "secretsException": false,
+            "filesException": false,
+            "service": "github",
+            "workspace": "",
+            "projectId": "srinivasan0505/opseraTestRepo2"
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          },
+          "job": null
+        },
+        "trigger": [],
+        "type": [
+          "code-scan"
+        ],
+        "notification": [],
+        "tags": [
+          {
+            "type": "environment",
+            "value": "development"
+          }
+        ],
+        "_id": "5ec7c8f729300fd745a43d55",
+        "name": "Code Repo Scan",
+        "description": "",
+        "active": true,
+        "updatedAt": "2020-05-22T12:43:35.606Z",
+        "tool_category": "code-scan",
+        "orchestration_type": "standard"
+      }
+    ],
+    "run_count": 3
+  },
+  "tags": [],
+  "type": [],
+  "_id": "629465f5a8474d00293b1633",
+  "owner": "628f570447ac16006ea2138a",
+  "roles": [
+    {
+      "_id": "629465f5a8474d00293b1634",
+      "role": "administrator",
+      "user": "harsha.dandu@opsera.io",
+      "group": null,
+      "createdAt": "2022-05-30T06:44:14.248Z",
+      "updatedAt": "2022-05-30T06:44:14.248Z"
+    }
+  ],
+  "organizationName": "opsera.io",
+  "account": "org-opsera-dnd-acc0",
+  "name": "Test Git Custodian Pipeline HD",
+  "template": "5ec7c8f729300f1d38a43d54",
+  "description": "Create a new template from scratch.",
+  "active": true,
+  "createdAt": "2022-05-30T06:36:37.979Z",
+  "updatedAt": "2023-03-30T19:05:53.575Z",
+  "__v": 0,
+  "owner_name": "Harsha Dandu"
+}
